@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/weather-api/static/css/main.f837233d.chunk.css",
+    "main.js": "/weather-api/static/js/main.0d47319e.chunk.js",
+    "main.js.map": "/weather-api/static/js/main.0d47319e.chunk.js.map",
+    "runtime-main.js": "/weather-api/static/js/runtime-main.574f2d64.js",
+    "runtime-main.js.map": "/weather-api/static/js/runtime-main.574f2d64.js.map",
+    "static/js/2.2f82013c.chunk.js": "/weather-api/static/js/2.2f82013c.chunk.js",
+    "static/js/2.2f82013c.chunk.js.map": "/weather-api/static/js/2.2f82013c.chunk.js.map",
+    "index.html": "/weather-api/index.html",
+    "precache-manifest.6c465145dd85612d1b389c716ee7b06b.js": "/weather-api/precache-manifest.6c465145dd85612d1b389c716ee7b06b.js",
+    "service-worker.js": "/weather-api/service-worker.js",
+    "static/css/main.f837233d.chunk.css.map": "/weather-api/static/css/main.f837233d.chunk.css.map",
+    "static/js/2.2f82013c.chunk.js.LICENSE.txt": "/weather-api/static/js/2.2f82013c.chunk.js.LICENSE.txt",
+    "static/media/01d.svg": "/weather-api/static/media/01d.7f93fbdb.svg",
+    "static/media/01n.svg": "/weather-api/static/media/01n.a3f3f38d.svg",
+    "static/media/02d.svg": "/weather-api/static/media/02d.80a5d865.svg",
+    "static/media/02n.svg": "/weather-api/static/media/02n.7e65840b.svg",
+    "static/media/03d.svg": "/weather-api/static/media/03d.ad789581.svg",
+    "static/media/03n.svg": "/weather-api/static/media/03n.ad789581.svg",
+    "static/media/04d.svg": "/weather-api/static/media/04d.ad789581.svg",
+    "static/media/04n.svg": "/weather-api/static/media/04n.ad789581.svg",
+    "static/media/09d.svg": "/weather-api/static/media/09d.2bd23641.svg",
+    "static/media/09n.svg": "/weather-api/static/media/09n.d235ab65.svg",
+    "static/media/10d.svg": "/weather-api/static/media/10d.f134a51c.svg",
+    "static/media/10n.svg": "/weather-api/static/media/10n.c915395f.svg",
+    "static/media/11d.svg": "/weather-api/static/media/11d.7142c78b.svg",
+    "static/media/11n.svg": "/weather-api/static/media/11n.7142c78b.svg",
+    "static/media/13d.svg": "/weather-api/static/media/13d.d103c77c.svg",
+    "static/media/13n.svg": "/weather-api/static/media/13n.3def7c9f.svg",
+    "static/media/main.css": "/weather-api/static/media/HelveticaNeue-Regular.abaac753.ttf",
+    "static/media/weather-sprite.svg": "/weather-api/static/media/weather-sprite.2738019d.svg",
+    "static/media/weather.svg": "/weather-api/static/media/weather.56c46d80.svg",
+    "static/media/weather_sagittarius.svg": "/weather-api/static/media/weather_sagittarius.166882bc.svg",
+    "static/media/weather_sunset.svg": "/weather-api/static/media/weather_sunset.cf01f54e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.574f2d64.js",
+    "static/js/2.2f82013c.chunk.js",
+    "static/css/main.f837233d.chunk.css",
+    "static/js/main.0d47319e.chunk.js"
+  ]
+}
