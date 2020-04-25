@@ -3,7 +3,7 @@ import SearchBar from './SearchBar';
 import WeatherForecast from './WeatherForecast';
 import CityVenue from './CityVenue';
 
-const API_ADDRESS = 'http://api.openweathermap.org/data/2.5/';
+const API_ADDRESS = 'https://api.openweathermap.org/data/2.5/';
 const API_KEY = '627e3d36605f94d2e2535a5fb7e456e6';
 const clientID = "ZW1Y2EINRKCEED2L1ONRU5KG3ETJDYODQNYKJNB0D301ZQZG";
 const secretKey = "FHPJZ2TFZCK5BB4M0EXBJSEUQKLZUC22YPQRIH03ZHP242JY";
