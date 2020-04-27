@@ -2,6 +2,9 @@
 A city weather forecast using ReactJs. Data is retrieved from <a href="https://openweathermap.org/forecast5">OpenWeatherMap</a> and <a href="https://developer.foursquare.com/docs/api/venues/search">Foursquare Developers</a>.
 <br>
 This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>.
+<br>
+
+Live demo <a href="https://sherlynnbemyguest.github.io/weather-api/">here</a>.
 
 
 ## Features
