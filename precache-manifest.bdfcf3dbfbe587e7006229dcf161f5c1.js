@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0695e7696feda41691c791f65ee0095",
+    "revision": "08f94f903a40a71f1653dcf79179c838",
     "url": "/weather-api/index.html"
   },
   {
-    "revision": "e77251f4eb52cc6e9dff",
-    "url": "/weather-api/static/css/main.f837233d.chunk.css"
+    "revision": "b2016c633a6e2fea931b",
+    "url": "/weather-api/static/css/main.a07d1199.chunk.css"
   },
   {
     "revision": "ef7c920c0e828c4c8815",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-api/static/js/2.2f82013c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e77251f4eb52cc6e9dff",
-    "url": "/weather-api/static/js/main.0b313525.chunk.js"
+    "revision": "b2016c633a6e2fea931b",
+    "url": "/weather-api/static/js/main.81462fe2.chunk.js"
   },
   {
     "revision": "84925c6ec3bf2703b571",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "abaac753f68bee4eb719bbf49cde0136",
     "url": "/weather-api/static/media/HelveticaNeue-Regular.abaac753.ttf"
+  },
+  {
+    "revision": "9cae32ead8cb2e53f55627335fc1f53f",
+    "url": "/weather-api/static/media/weather-bg-new.9cae32ea.jpg"
   },
   {
     "revision": "2738019da90b9fac396ae4397e017adb",

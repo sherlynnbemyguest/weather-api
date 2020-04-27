@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weather-api/static/css/main.f837233d.chunk.css",
-    "main.js": "/weather-api/static/js/main.0b313525.chunk.js",
-    "main.js.map": "/weather-api/static/js/main.0b313525.chunk.js.map",
+    "main.css": "/weather-api/static/css/main.a07d1199.chunk.css",
+    "main.js": "/weather-api/static/js/main.81462fe2.chunk.js",
+    "main.js.map": "/weather-api/static/js/main.81462fe2.chunk.js.map",
     "runtime-main.js": "/weather-api/static/js/runtime-main.574f2d64.js",
     "runtime-main.js.map": "/weather-api/static/js/runtime-main.574f2d64.js.map",
     "static/js/2.2f82013c.chunk.js": "/weather-api/static/js/2.2f82013c.chunk.js",
     "static/js/2.2f82013c.chunk.js.map": "/weather-api/static/js/2.2f82013c.chunk.js.map",
     "index.html": "/weather-api/index.html",
-    "precache-manifest.387eded794f84c0a5549a0e93c1d283f.js": "/weather-api/precache-manifest.387eded794f84c0a5549a0e93c1d283f.js",
+    "precache-manifest.bdfcf3dbfbe587e7006229dcf161f5c1.js": "/weather-api/precache-manifest.bdfcf3dbfbe587e7006229dcf161f5c1.js",
     "service-worker.js": "/weather-api/service-worker.js",
-    "static/css/main.f837233d.chunk.css.map": "/weather-api/static/css/main.f837233d.chunk.css.map",
+    "static/css/main.a07d1199.chunk.css.map": "/weather-api/static/css/main.a07d1199.chunk.css.map",
     "static/js/2.2f82013c.chunk.js.LICENSE.txt": "/weather-api/static/js/2.2f82013c.chunk.js.LICENSE.txt",
     "static/media/01d.svg": "/weather-api/static/media/01d.7f93fbdb.svg",
     "static/media/01n.svg": "/weather-api/static/media/01n.a3f3f38d.svg",
@@ -28,7 +28,7 @@
     "static/media/11n.svg": "/weather-api/static/media/11n.7142c78b.svg",
     "static/media/13d.svg": "/weather-api/static/media/13d.d103c77c.svg",
     "static/media/13n.svg": "/weather-api/static/media/13n.3def7c9f.svg",
-    "static/media/main.css": "/weather-api/static/media/HelveticaNeue-Regular.abaac753.ttf",
+    "static/media/main.css": "/weather-api/static/media/weather-bg-new.9cae32ea.jpg",
     "static/media/weather-sprite.svg": "/weather-api/static/media/weather-sprite.2738019d.svg",
     "static/media/weather.svg": "/weather-api/static/media/weather.56c46d80.svg",
     "static/media/weather_sagittarius.svg": "/weather-api/static/media/weather_sagittarius.166882bc.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.574f2d64.js",
     "static/js/2.2f82013c.chunk.js",
-    "static/css/main.f837233d.chunk.css",
-    "static/js/main.0b313525.chunk.js"
+    "static/css/main.a07d1199.chunk.css",
+    "static/js/main.81462fe2.chunk.js"
   ]
 }
