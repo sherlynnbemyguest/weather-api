@@ -61,8 +61,6 @@ const CityVenue = ({ cityVenue }) => {
     if (!cityVenue) return null;
     return(
         <div className="col s12 h-flex wrap">
-            
-
             { 
                 cityVenue.map(({location, name, categories}, i) =>{
                     return(
@@ -70,7 +68,7 @@ const CityVenue = ({ cityVenue }) => {
                             <StyledWrapper>
                             <TextWrapper>
                                     {categories.map((category, j) => {
-                                        return <P className="t-label" key={j}>{category.name}</P>
+                                        return <P className="t-label" key={j}>{name}</P>
                                     })}
                                     <H3 title={name}>{name}</H3>
                                     
