@@ -19,7 +19,7 @@ class App extends Component{
             .then (json => {
                 console.log('json', json);
 
-                if(json.cod == 200){
+                if(json.cod === 200){
                     const cityWeather = json;
                     this.setState({ cityWeather });
                 }else{
@@ -48,7 +48,7 @@ class App extends Component{
                     <div className="col s12 left">
                         <WeatherForecast cityWeather={this.state.cityWeather} />
                     </div>
-                        <CityVenue cityVenue={this.state.cityVenue} />
+                    <CityVenue cityVenue={this.state.cityVenue} />
                 </div>
             </div>
         );

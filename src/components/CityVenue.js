@@ -61,25 +61,29 @@ const CityVenue = ({ cityVenue }) => {
     if (!cityVenue) return null;
     return(
         <div className="col s12 h-flex wrap">
+            
+
             { 
-                cityVenue.map(venue =>{
-                    const { id, location, name, categories } = venue;
+                cityVenue.map(({location, name, categories}, i) =>{
                     return(
-                        <div  className="col s6 t12 left">
-                            <StyledWrapper key={ id }>
+                        <div  className="col s6 t12 left" key={ i }>
+                            <StyledWrapper>
                             <TextWrapper>
-                                    <P className="t-label">{categories[0].name}
-                                    </P>
+                                    {categories.map((category, j) => {
+                                        return <P className="t-label" key={j}>{category.name}</P>
+                                    })}
                                     <H3 title={name}>{name}</H3>
                                     
                                     <P className="mb12">
-                                        Address: {
-                                        (`${location.address}`) + (`, ${location.city}`) + (`, ${location.country}`)
-                                        + (`, ${location.postalCode}`)
-                                        }
+                                        Address: {location.address} 
+                                        {(`, ${location.city}`)}
+                                        {(`, ${location.country}`)}
+                                        {(`, ${location.postalCode}`)}
                                     </P>
                                 </TextWrapper>
                             </StyledWrapper>
+
+                           
                         </div>
                     )
                 })
@@ -89,4 +93,3 @@ const CityVenue = ({ cityVenue }) => {
 }
 
 export default CityVenue;
-

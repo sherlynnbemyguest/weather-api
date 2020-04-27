@@ -94,7 +94,7 @@ const WeatherForecast = ({ cityWeather }) => {
             
             <Weather>
                 <Icon>
-                    <img src={require(`../assets/image/weather-icon/${ weather[0].icon }.svg`)}></img>
+                    <img src={require(`../assets/image/weather-icon/${ weather[0].icon }.svg`)} alt=""></img>
                 </Icon>
                 <Temp>
                     {
