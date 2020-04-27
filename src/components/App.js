@@ -45,10 +45,15 @@ class App extends Component{
                 </div>
 
                 <div className="container">
-                    <div className="col s12 left">
+                    <div className="col s12 result-cont">
+                        <div className="col s5 t12 left">
                         <WeatherForecast cityWeather={this.state.cityWeather} />
+                        </div>
+
+                        <div className="col s7 t12 left">
+                        <CityVenue cityVenue={this.state.cityVenue} />
+                        </div>
                     </div>
-                    <CityVenue cityVenue={this.state.cityVenue} />
                 </div>
             </div>
         );

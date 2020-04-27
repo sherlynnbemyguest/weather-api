@@ -4,15 +4,10 @@ import styled from 'styled-components'
 const StyledWrapper = styled.div`
     width: 100%;
     margin: auto;
-    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-
-    .mb12{
-        margin-bottom: 12px;
-    }
+    margin: 20px 0;
+    flex-wrap: wrap;
 
     .t-label{
         color: #ec7532
@@ -21,15 +16,11 @@ const StyledWrapper = styled.div`
     .bold{
         font-weight: 600;
     }
-
-    @media (max-width: 768px){
-        flex-wrap: wrap
-    }
 `;
 
 const H2 = styled.h2`
     font-family: HelveticaNeueBold;
-    font-size: 22px;
+    font-size: 32px;
     color: #fff;
 
     @media (max-width: 768px){
@@ -44,8 +35,9 @@ const Weather = styled.div`
     align-items: center;
     justify-content: end;
     position: relative;
-    padding: 15px 30px 15px 60px;
-    margin-left: 60px;
+    padding: 15px 15px 15px 60px;
+    width: 100%;
+    margin-top: 15px;
 
     background: rgba(255,255,255, 0.4);
     border-radius: 8px;
@@ -56,8 +48,9 @@ const Weather = styled.div`
     }
 `;
 const Temp = styled.div`
-    font-size: 40px; 
+    font-size: 36px;
     font-family: HelveticaNeueBold;
+    margin-left: 12px;
 `;
 const Text = styled.div`
     font-size: 22px;
@@ -71,8 +64,8 @@ const Text = styled.div`
 `;
 const Icon = styled.div`
     position: absolute;
-    left: -40px;
-    top: -30px;
+    left: -42px;
+    top: -22px;
 
     img{
         width: 120px;
@@ -102,8 +95,8 @@ const WeatherForecast = ({ cityWeather }) => {
                     }&deg;
                 </Temp>
                 <Text>
-                    {weather[0].description}
-                <p>{days[today.getDay()]}, {months[today.getDay()]} {today.getDay()} {today.getFullYear}</p>
+                    {weather[0].main}
+                <p>{days[today.getDay()]}, {months[today.getMonth()]} {today.getDate()}</p>
                 </Text>
             </Weather>
             

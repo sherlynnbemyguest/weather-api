@@ -615,6 +615,7 @@ textarea {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+  float: left;
 }
 .col.s1 {
   -ms-flex: 0 0 8.333333%;
@@ -743,121 +744,6 @@ textarea {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-/*   MARGIN and PADDING */
-.m-auto {
-  margin: auto;
-}
-.m0 {
-  margin: 0;
-}
-.mt0 {
-  margin-top: 0;
-}
-.mb0 {
-  margin-bottom: 0 !important;
-}
-.mr0 {
-  margin-right: 0;
-}
-.ml0 {
-  margin-left: 0;
-}
-.mr05 {
-  margin-right: 0.5em;
-}
-.mb05 {
-  margin-bottom: 0.5em;
-}
-.mb1 {
-  margin-bottom: 1em;
-}
-.mt1 {
-  margin-top: 1em;
-}
-.ml1 {
-  margin-left: 1em;
-}
-.mr1 {
-  margin-right: 1em;
-}
-.mb1 {
-  margin-bottom: 1em;
-}
-.mb2 {
-  margin-bottom: 2em;
-}
-.p0 {
-  padding: 0;
-}
-.pt0 {
-  padding-top: 0;
-}
-.pb0 {
-  padding-bottom: 0;
-}
-.pr0 {
-  padding-right: 0;
-}
-.pl0 {
-  padding-left: 0;
-}
-.p2 {
-  padding: 2em;
-}
-/* Elements Alignment */
-.t-center {
-  text-align: center;
-}
-.t-right {
-  text-align: right;
-}
-.t-left {
-  text-align: left;
-}
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
-.unset {
-  float: unset !important;
-}
-.upper-case,
-.upperCase {
-  text-transform: uppercase;
-}
-.lower-case {
-  text-transform: lowercase;
-}
-.capitalize {
-  text-transform: capitalize;
-}
-.d-block {
-  display: block;
-}
-.d-inline {
-  display: inline;
-}
-.t-clip {
-  width: auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  max-width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.help-block {
-  font-size: 12px;
-}
-.bold {
-  font-weight: 600;
-}
-.t-rainbow {
-  background-image: linear-gradient(to right, #A770EF, #CF8BF3, #FDB99B);
-  -webkit-background-clip: text;
-  color: transparent;
-}
 @font-face {
   font-family: HelveticaNeue;
   src: url(assets/HelveticaNeue-Regular.ttf);
@@ -876,7 +762,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  background: #000;
+  background-size: cover!important;
+  background: url(assets/image/weather-bg-new.jpg);
 }
 #root {
   width: 100%;
@@ -898,9 +785,17 @@ h1 {
 }
 .container {
   max-width: 800px;
+  margin: auto;
+  padding: 12px;
 }
 .search-cont {
-  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.result-cont {
+  background: rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
 }
 .search-cont .container {
   max-width: 550px;

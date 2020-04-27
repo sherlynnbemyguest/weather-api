@@ -5,13 +5,17 @@ import styled from 'styled-components'
 
 const StyledWrapper = styled.div`
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
-    max-width: 500px;
     margin: auto;
+    border-radius: 8px;
 
-    .mb12{
-        margin-bottom: 12px;
+    &:first-child{
+        margin-top: 20px;
+    }
+
+    &:last-child{
+        margin-bottom: 20px;
     }
 
     .t-label{
@@ -37,8 +41,6 @@ const P = styled.p`
 `;
 
 const TextWrapper = styled.div`
-    padding: 0 0 0 20px;
-    width: 80%;
     color: #fff;
 
     @media (max-width: 768px){
@@ -50,7 +52,7 @@ const H3 = styled.h3`
     font-size: 18px;
     letter-spacing: 1px;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 
     @media (max-width: 768px){
         font-size: 20px;
@@ -64,25 +66,21 @@ const CityVenue = ({ cityVenue }) => {
             { 
                 cityVenue.map(({location, name, categories}, i) =>{
                     return(
-                        <div  className="col s6 t12 left" key={ i }>
-                            <StyledWrapper>
+                            <StyledWrapper key={ i }>
                             <TextWrapper>
                                     {categories.map((category, j) => {
-                                        return <P className="t-label" key={j}>{name}</P>
+                                        return <P className="t-label" key={j}>{category.name}</P>
                                     })}
                                     <H3 title={name}>{name}</H3>
                                     
-                                    <P className="mb12">
-                                        Address: {location.address} 
-                                        {(`, ${location.city}`)}
-                                        {(`, ${location.country}`)}
-                                        {(`, ${location.postalCode}`)}
+                                    <P>
+                                        Address:
+                                        {location.formattedAddress.map((address, k) => {
+                                            return <span key={k}> {(`${address} `)}</span>
+                                        })}
                                     </P>
                                 </TextWrapper>
                             </StyledWrapper>
-
-                           
-                        </div>
                     )
                 })
             }

@@ -18,8 +18,8 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    background: #000;
-    // background: url(assets/image/weather-bg.jpeg);
+    background-size: cover!important;
+    background: url(assets/image/weather-bg-new.jpg);
   }
   
   #root{
@@ -42,15 +42,25 @@
   
   .container{
     max-width: 800px;
+    margin: auto;
+    padding: 12px;
   }
   
   .search-cont{
-    background: #000;
+    background: rgba(0,0,0,0.8);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+
+  .result-cont{
+    background: rgba(0,0,0,0.8);
+    margin-bottom: 30px;
   }
   
   .search-cont .container{
     max-width: 550px;
   }
+  
   
   .movie-wrap{
     padding: 20px 0;
