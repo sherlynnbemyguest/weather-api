@@ -6,7 +6,7 @@ This project was bootstrapped with <a href="https://github.com/facebook/create-r
 
 ## Features
 <ul>
-  <li>Search weather by movie city</li>
+  <li>Search weather by city</li>
   <li>Display 5 location near the city</li>
 </ul>
 
